@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAIN 1</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="elzero1.css">
+</head>
+<body>
+    <header id="home" class="main">
+        <nav>
+            <ul>
+                <li><a class="nav-link" data-scroll='home' href="#">home</a></li>
+                <li><a class="nav-link" data-scroll='about' href="#">about</a></li>
+                <li><a class="nav-link" data-scroll='services' href="#">services</a></li>
+                <li><a class="nav-link" data-scroll='solution' href="#">solution</a></li>
+                <li><a class="nav-link" data-scroll='product' href="#">product</a></li>
+                <li><a class="nav-link" data-scroll='contact' href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="main">
+        <div class="container">
+            <div class="dynamic-tabs">
+                <ul class="tabs">
+                    <li class="tab chosen" data-content=".tab-content-one">one</li>
+                    <li class="tab" data-content=".tab-content-two">two</li>
+                    <li class="tab" data-content=".tab-content-three">three</li>
+                    <li class="tab" data-content=".tab-content-four">four</li>
+                </ul>
+                <div class="content-tabs">
+                    <div class="tab-content-one"> 1 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facere officia aut unde laboriosam, eos veritatis vero deleniti dolorum quam.</div>
+                    <div class="tab-content-two"> 2 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facere officia aut unde laboriosam, eos veritatis vero deleniti dolorum quam.</div>
+                    <div class="tab-content-three"> 3 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facere officia aut unde laboriosam, eos veritatis vero deleniti dolorum quam.</div>
+                    <div class="tab-content-four"> 4 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facere officia aut unde laboriosam, eos veritatis vero deleniti dolorum quam.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="main">
+        <div class="container">
+            <div class="gallary">
+                <div class="main-img">
+                    <i class="fa fa-chevron-circle-left fa-2x"></i>
+                    <i class="fa fa-chevron-circle-right fa-2x"></i>
+                    <img src="/images/1.jpg" alt="">
+                </div>
+                <div class="thumbnails">
+                    <img src="/images/1.jpg" alt="" class="selected">
+                    <img src="/images/2.jpg" alt="">
+                    <img src="/images/3.jpg" alt="">
+                    <img src="/images/4.jpg" alt="">
+                    <img src="/images/5.jpg" alt="">
+                    <img src="/images/6.jpg" alt="">
+                    <img src="/images/1.jpg" alt="">
+                    <img src="/images/2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solution" class="main">
+        <div class="container">
+            <div>
+                <button class="bounce btn" style="margin: 100px 0;">click me</button>
+                <button class="bounce btn" style="margin: 100px 0;">click me</button>
+            </div>
+            <div class="shuffel-cards">
+                <div class="cards">
+                    <div class="card card-1">one</div>
+                    <div class="card card-2">two</div>
+                    <div class="card card-3">three</div>
+                    <div class="card card-4">four</div>
+                    <div class="card card-5">five</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="product" class="main">
+        <div class="container">
+            <div class="todo">
+                <h3>Todo List For your Tasks</h3>
+                <ul class="tasks">
+                    <li class="task">html</li>
+                    <li class="task">css</li>
+                    <li class="task">javaScript</li>
+                </ul>
+                <form class="new-task" method="POST">
+                    <input type="text" class="adding-task" placeholder="add new task">
+                </form>
+            </div>
+            <div class="auto-change">
+                <h3>auto change notes</h3>
+                <ul class="notes">
+                    <li class="note actived">this is the note one</li>
+                    <li class="note">this is the note two</li>
+                    <li class="note">this is the note three</li>
+                    <li class="note">this is the note four</li>
+                    <li class="note">this is the note five</li>
+                </ul>
+                <p class="auto-writer" data-write="this is auto type writer"></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="main">
+        <div class="container">
+            <form action="">
+                <div>
+                    <input required='required' type="text" placeholder="type your name">
+                    <span class="required">Please Inter This Field</span>
+                </div>
+                <div>
+                    <input required='required' type="password" placeholder="type your password">
+                    <span class="required">Please Inter This Field</span>
+                </div>
+                <div>
+                    <input class="email-suggest" autocomplete="off" required='required' type="email" name="email" placeholder="type your email">
+                    <!-- <ul class="suggest-box">
+                        <li>@gmail.com</li>
+                        <li>@hotmail.com</li>
+                        <li>@yahoo.com</li>
+                    </ul> -->
+                    <span class="required">Please Inter This Field</span>
+                </div>
+                <div>
+                    <div class="custom-file">
+                        <span>choose file</span>
+                        <input type="file">
+                    </div>
+                </div>
+                <div>
+                    <input type="text" class="add-tag" placeholder="add tag.( end it with , )">
+                    <article class="tags" style="width: 65%;"></article>
+                </div>
+                <div>
+                    <textarea cols="10" rows="10" placeholder="type your massage"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="send">
+                    <!-- <span class="">Please Click Send</span> -->
+                </div>
+                <div>
+                    <div class="funny">
+                        <input class="" type="text" placeholder="Click a button to know his uniCode" style="margin: 0; padding: 0;width: 70%;">
+                        <span></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer" class="main">
+        <div class="container">
+            <table>
+                <tr>
+                    <th>name</th>
+                    <th>value</th>
+                    <th>price</th>
+                </tr>
+                <tr>
+                    <td>first item</td>
+                    <td>10 items</td>
+                    <td class="price">1000</td>
+                </tr>
+                <tr>
+                    <td>second item</td>
+                    <td>7 items</td>
+                    <td class="price">700</td>
+                </tr>
+                <tr>
+                    <td>third item</td>
+                    <td>5 items</td>
+                    <td class="price">500</td>
+                </tr>
+                <tr>
+                    <td>forth item</td>
+                    <td>2 items</td>
+                    <td class="price">200</td>
+                </tr>
+                <tr>
+                    <td>fifth item</td>
+                    <td>6 items</td>
+                    <td class="price">600</td>
+                </tr>
+                <tr>
+                    <td colspan="2">TOTAL:</td>
+                    <td class="total-price"></td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+
+    <div id="scrollTop">
+        <i class="fa fa-chevron-up fa-2x"></i>
+    </div>
+
+    <div id="f-pop-up" class="pop-up">
+        <div class="content-pop-up">
+            <h3>some lablabla</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam minus ipsa quaerat nostrum exercitationem nisi, ea nulla! Facere, deleniti delectus? Unde quaerat nesciunt perferendis sapiente facilis illum quibusdam, deserunt sint?</p>
+            <button class="btn close-pop-up">close</button>
+        </div>
+    </div>
+
+    <button class="float-btn btn show" data-target="#f-pop-up">show pop-up</button>
+
+    <div id="fixed-menu">
+        <div class="icon"><i class="fa fa-cog fa-2x" aria-hidden="true"></i></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/elzero1.js"></script>
+</body>
+</html>
